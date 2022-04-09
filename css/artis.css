@@ -1,0 +1,152 @@
+* { margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: arial, helvetiva, sans-serif;
+	background: url(../img/fondo_2.jpg) no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+
+.contenedor { 
+	width: 1085px;
+	margin: auto;
+}
+
+.container {
+	padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    height: 500px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: #00000075;
+}
+
+.container img {
+	height: 150px;
+    border-radius: 35px;
+    display: block;
+    margin: auto;
+}
+
+p {
+	text-align: center;
+	font-size: 16px;
+}
+
+.container_2 {
+	padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    height: 500px;
+    width: 400px;
+    border-radius: 50px;
+    float: right;
+    background-color: #00000075;
+}
+
+.container_2 img {
+	height: 150px;
+    border-radius: 29px;
+    display: block;
+    margin: auto;
+}
+
+#logo { 
+    display: inline-block;
+    position: relative;
+    top: 222px;
+    right: -16px;
+    /* border: 2px solid;*/
+}
+
+#logo img  {
+	height: 119px;
+}
+
+#menu {
+ 	display: inline-block;
+ 	width: 100%;
+ 	text-align: center;
+}
+
+#menu a{ 
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+#menu a:hover, .activo { 
+      border-bottom: 2px solid #00EAFD; 
+}
+
+.inicio {
+	background: url(../img/inicio.png) no-repeat center;
+}
+
+.boton {
+	background: url(../img/boton.png) no-repeat center;
+}
+
+.personajes {
+	background: url(../img/personajes.png) no-repeat center;
+}
+
+.estudio {
+	background: url(../img/estudio.png) no-repeat center;
+}
+
+.otro {
+	background: url(../img/otros.png) no-repeat center;
+}
+
+.container_3 {
+	padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    height: 500px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: #00000075;
+}
+
+.container_3 img {
+	height: 150px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+}
+
+.container_4 {
+	padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    height: 500px;
+    width: 400px;
+    border-radius: 50px;
+    float: right;
+    background-color: #00000075;
+}
+
+.container_4 img {
+	height: 150px;
+    border-radius: 35px;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+#footer {
+	background: #ccc;
+    text-align: center;
+    color: #666;
+    font-size: 10px;
+    /* padding: 20px;
+}

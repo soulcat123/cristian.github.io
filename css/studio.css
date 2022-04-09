@@ -1,0 +1,401 @@
+* { margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: arial, helvetiva, sans-serif;
+	background: url(../img/fondo_4.jpg) no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+
+.contenedor { 
+	width: 1085px;
+	margin: auto;
+}
+
+#logo { 
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 467px;
+    margin: 10px
+}
+
+#logo img  {
+	height: 119px;
+}
+
+#menu {
+ 	display: inline-block;
+ 	width: 100%;
+ 	text-align: center;
+}
+
+#menu a{ 
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+#menu a:hover, .activo { 
+      border-bottom: 2px solid #00EAFD; 
+}
+
+.inicio {
+	background: url(../img/inicio.png) no-repeat center;
+}
+
+.boton {
+	background: url(../img/boton.png) no-repeat center;
+}
+
+.personajes {
+	background: url(../img/personajes.png) no-repeat center;
+}
+
+.estudio {
+	background: url(../img/estudio.png) no-repeat center;
+}
+
+.otro {
+	background: url(../img/otros.png) no-repeat center;
+}
+
+hr {
+	margin: 20px;
+}
+
+.container {
+	margin: 9px;
+    padding: 16px;
+    border: 2px solid;
+}
+
+#slider1 {
+	/*width: 300px; */
+    /* height: 240px; */
+    /* border: 2px solid;*/
+}
+
+#slider1 img {
+	width: 301px;
+    height: 240px;
+    margin: 10px;
+    margin-right: 30px;
+    border-radius: 30px;
+    float: left;
+}
+
+#slider1 h3 {
+	line-height: 2;
+    text-align: left;
+    font-size: 25px;
+    /* display: inline-block;*/
+}
+
+#slider1 p {
+	display: flex;
+    line-height: 25.1px;
+}
+
+#fondo {
+	width: 600px;
+    padding: 5px 25px;
+    margin-left: 354px;
+    background: #cdcccc5c;
+    border-radius: 50px;
+    /* border: 3px solid;
+}
+
+
+#slider1 {
+	/*width: 300px; */
+    /* height: 240px; */
+    /* border: 2px solid;*/
+}
+
+#slider2 img {
+	width: 301px;
+    height: 240px;
+    margin: 10px;
+    margin-left: 30px;
+    border-radius: 30px;
+    float: right;
+}
+
+#slider2 h3 {
+	line-height: 2;
+    text-align: right;
+    font-size: 30px;
+    /* display: inline-block;*/
+}
+
+#slider2 p {
+	/*display: flex; */
+    text-align: right;
+    line-height: 25.1px;
+}
+
+#fondo2 {
+	width: 600px;
+    padding: 5px 25px;
+    margin-right: 354px;
+    background: #cdcccc5c;
+    border-radius: 50px;
+    /* border: 3px solid;*/
+}
+
+h2 {
+	width: 436px;
+    text-align: center;
+    font-size: 41px;
+    background: #00ffff8c;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    /*border: 2px solid;*/
+}
+
+#premios1 {
+	/*text-align: center;*/
+}
+
+#contenido1 {
+	/*height: 155px; */
+    /* width: max-content; */
+    display: inline-block;
+    background: #2600007d;
+    border-radius: 50px;
+    /*border: 2px solid;*/
+}
+
+#contenido1 img {
+	height: 175px;
+	margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+#contenido1 h3 {
+	margin-bottom: 5px;
+}
+
+#contenido1 h3, p {
+	line-height: 25.1px;
+	text-align: center;
+}
+
+
+#contenido2 {
+	/*height: 155px; */
+    /* width: max-content; */
+    display: inline-block;
+    background: #5e00007d;
+    border-radius: 50px;
+    /*border: 2px solid;*/
+}
+
+#contenido2 img {
+	width: 308.34px;
+	height: 175px;
+	margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+#contenido2 h3 {
+	margin-bottom: 5px;
+}
+
+#contenido2 h3, p {
+	line-height: 25.1px;
+	text-align: center;
+}
+
+
+#contenido3 {
+	/*height: 155px; */
+    /* width: max-content; */
+    display: inline-block;
+    background: #221a0599;
+    border-radius: 50px;
+   /* border: 2px solid;*/
+}
+
+#contenido3 img {
+	width: 308.38px;
+	height: 174px;
+	margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+#contenido3 h3 {
+	margin-bottom: 5px;
+}
+
+#contenido3 h3, p {
+	line-height: 25.1px;
+	text-align: center;
+}
+
+#contenido1, #contenido2, #contenido3 {
+	margin-bottom: 10px;
+	margin: 0 14px 15px;
+}
+
+
+#contenido4 {
+	/*height: 155px; */
+    /* width: max-content; */
+    display: inline-block;
+    background: #9595957d;
+    border-radius: 50px;
+   /* border: 2px solid;*/
+}
+
+#contenido4 img {
+	/*height: 174px; */
+    height: 240px;
+    margin-bottom: 5px;
+    border-radius: 45px;
+}
+
+#contenido4 h3 {
+	margin-bottom: 5px;
+}
+
+#contenido4 h3, p {
+	line-height: 25.1px;
+	text-align: center;
+}
+
+
+#contenido5 {
+	/*height: 155px; */
+    /* width: max-content; */
+    display: inline-block;
+    background: #996a429e;
+    border-radius: 50px;
+    /*border: 2px solid;*/
+}
+
+#contenido5 img {
+  /*height: 174px; */
+    width: 320px;
+    height: 240px;
+    margin-bottom: 5px;
+    border-radius: 45px;
+}
+
+#contenido5 h3 {
+	margin-bottom: 5px;
+}
+
+#contenido5 h3, p {
+	line-height: 25.1px;
+	text-align: center;
+}
+
+
+#contenido6 {
+	/*height: 155px; */
+    /* width: max-content; */
+    display: inline-block;
+    background: #7e68287d;
+    border-radius: 50px;
+   /* border: 2px solid;*/
+}
+
+#contenido6 img {
+ /* height: 174px; */
+    width: 340px;
+    height: 240px;
+    margin-bottom: 5px;
+    border-radius: 45px;
+}
+
+#contenido6 h3 {
+	margin-bottom: 5px;
+}
+
+#contenido6 h3, p {
+	line-height: 25.1px;
+	text-align: center;
+}
+
+#contenido4, #contenido5, #contenido6 {
+	margin: 0 18px 15px;
+}
+
+
+#contenido7 {
+	/*height: 155px; */
+    /* width: max-content; */
+    display: inline-block;
+    background: #00000094;
+    border-radius: 50px;
+   /* border: 2px solid;*/
+}
+
+#contenido7 img {
+ /* height: 174px; */
+    width: 304px;
+    height: 240px;
+    margin-bottom: 5px;
+    border-radius: 45px;
+}
+
+#contenido7 h3 {
+	margin-bottom: 5px;
+}
+
+#contenido7 h3, p {
+	line-height: 25.1px;
+	text-align: center;
+}
+
+
+
+#contenido8 {
+	/*height: 155px; */
+    width: 629PX;
+    position: absolute;
+    display: inline-block;
+    background: #00ffff73;
+    border-radius: 50px;
+   /* border: 2px solid;*/
+}
+
+#contenido8 img {
+     /* height: 174px; */
+    /* width: 340px; */
+    /* height: 240px; */
+    /* margin-bottom: 5px; */
+    border-radius: 45px;
+    float: left;
+}
+
+#contenido8 h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#contenido8 h3, p {
+	line-height: 25.1px;
+	text-align: center;
+}
+
+
+#contenido7, #contenido8 {
+	margin: 0 18px 15px;
+}
+
+
+#footer {
+    background: #ccc;
+    text-align: center;
+    color: #666;
+    font-size: 10px;
+    /* padding: 20px;
+}
